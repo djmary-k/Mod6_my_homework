@@ -66,6 +66,8 @@ if __name__ == "__main__":
         print(f'Start in folder: {folder_for_scan.resolve()}')
         main(folder_for_scan.resolve())
 
+if __name__ == "__main__":
+    run()
 
 # запуск файлу main:  py main.py /Users/Maryna/Desktop/garbage 
 # запуск файлу main:  py main.py garbage 
